@@ -1,0 +1,596 @@
+@media screen and (max-width:1439px){
+    #wrap,  #header, #section{
+        width: 100%;
+    }
+
+    #section .now{
+        width: 97%;
+    }
+    #section .main_content{
+        width: 71.8%;
+    }
+
+   
+    #footer .sns{
+        width: 17%;
+        margin-left: 85%;
+    }
+}
+
+@media screen and (max-width:1280px){
+    #wrap, #header, #section, #footer{
+        width: 100%;
+    }
+
+    #nav > ul > li:nth-last-child(-n+3){
+        margin-left: 6.1%;
+    }
+
+    #section .left_menu{
+        width: 20%;
+    }
+    
+    #section .main_content{
+        width: 69%;
+    }
+
+    .main_content .noted .noted_title{
+        width: 60%;
+    }
+    .main_content .noted ol li p{
+        width: 72%;
+    }
+
+    #footer #footer_width{
+        width: 100%;
+    }
+    #footer #footer_width .b_logo{
+        width: 260px;
+        height: 60px;
+        margin-left: 10px;
+    }
+    #footer #footer_width .address{
+        width: 47%;
+    }
+    #footer  #footer_width .sns{
+        width: 200px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:1024px){
+    body{
+        -ms-overflow-style: none;
+    }
+    ::-webkit-scrollbar {
+        display: none;
+    }
+    #header #top_menu{
+        display: none;
+    }
+    #nav{
+        display: none;
+    }
+    #wrap{
+       width: 100%;
+    }
+    #header, #logo, #footer{
+        width: 100%;
+    }
+    #header{
+        margin-top: 30px;
+    }
+    .mo_nav_open{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        top: 20px;
+        right: 10px;
+        display: block;
+    }
+    .mo_nav_open span{
+        display: block;
+        text-indent: -999999px;
+        width: 100%;
+        height: 4px;
+        background: #000;
+        position: absolute;
+    }
+    .mo_nav_open span:nth-child(1){
+        top: 0;
+    }
+    .mo_nav_open span:nth-child(2){
+        top: 15px;
+    }
+    .mo_nav_open span:nth-child(3){
+        top: 30px;
+    }
+    #mo_nav{
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        top: 0;
+    }
+    #mo_nav .mo_nav_wrap{
+        width: 100%;
+        height: auto;
+        background-color: #e5e5e5;
+    }
+    #mo_nav .mo_nav_wrap .form{
+        height: 200px;
+        background-color: #fff;
+        box-sizing: border-box;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_logo{
+        width: 300px;
+        height: 70px;
+        background: url(../Sleader/logo1.png) no-repeat center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 10px;
+        top: 30px;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close span{
+        display: block;
+        text-indent: -999999px;
+        width: 100%;
+        height: 4px;
+        background: #000;
+        position: absolute;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close span:nth-child(1){
+        transform: rotate(45deg);
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close span:nth-child(2){
+        transform: rotate(-45deg);
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_btn{
+        width: 300px;
+        margin: 30px auto 0;
+        text-align: center;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_btn button{
+        margin: 0 10px;
+        padding: 10px;
+        background-color: #fff;
+        border: 2px solid #be4a4a;
+        border-radius: 10px;
+        font-size: 1em;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1{
+        width: 100%;
+        border-top: 2px solid #be4a4a;
+        border-bottom: 2px solid #be4a4a;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 li {
+        margin: 3px 0;
+        background-color: #b35a5a;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 > li > a {
+        color: #fff;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 .mo_nav_depth2 li{
+        width: 100%;
+        background-color: #fff;
+        margin: 0;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 .mo_nav_depth2 .mo_nav_depth3{
+       
+        display: none;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 .mo_nav_depth2 .mo_nav_depth3 li{
+        width: 100%;
+        background-color: #f0c0c0;
+    }
+    #mo_nav .mo_nav_wrap .mo_nav_info{
+        padding: 30px 0;
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 600;
+    }
+
+    #section .mo_section_nav .mo_section_nav_depth2{
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        height: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li{
+        display: block;
+        float: left;
+        padding: 0 5px;
+        border-right: 1px solid #333;
+
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li:last-child{
+        border-right: none;
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li:hover a{
+        color: red;
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li:hover a{
+        transition: all 0.4s;
+    }
+
+    #section .now,
+    #section .left_menu,
+    #section .right_menu{
+        display: none;
+    }
+
+    #section .mo_section_nav{
+        display: block;
+        width: 98%;
+        margin: 0 auto;
+        background: #f0c0c0;
+    }
+    #section .mo_section_nav > .mo_section_nav_title{
+        font-size: 1.5em;
+        text-align: center;
+        background-color: #be4a4a;
+        padding: 10px 0;
+        font-weight: 600;
+        color: #fff;
+    }
+    #section .mo_section_nav > ul{
+        width: 100%;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    #section .mo_section_nav > ul:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    #section .mo_section_nav > ul > li{
+        width: 50%;
+        display: block;
+        float: left;
+        box-sizing: border-box;
+    }
+    #section .mo_section_nav > ul > li:hover > a{
+        background-color: rgb(70, 68, 68);
+        color: #fff;
+    }
+    #section .mo_section_nav > ul > li:nth-child(odd){
+        border-right: 1px solid #ddd;
+    }
+    #section .mo_section_nav > ul > li:nth-child(-n+8){
+        border-bottom: 1px solid #ddd;
+    }
+    #section .mo_section_nav > ul > li > a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+        transition: all 0.4s;
+    }
+
+    #section .mo_section_nav .mo_section_nav_depth2{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 20px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li{
+        display: inline-block;
+        padding: 0 5px;
+        border-right: 1px solid #333;
+
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li:last-child{
+        border-right: none;
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li:hover a{
+        color: red;
+    }
+    #section .mo_section_nav .mo_section_nav_depth2 li:hover a{
+        transition: all 0.4s;
+    }
+    
+    #section .main_content{
+        float: none;
+        width: 98%;
+        margin: 10px auto;
+    }
+
+    .main_content .noted .noted_title{
+        width: 60%;
+        font-size: 1em;
+    }
+    .main_content .noted ol li span{
+        font-size: 1em;
+    }
+    .main_content .noted ol li p{
+        width: 74%;
+        font-size: 0.9em;
+        margin-left: 180px;
+    }
+
+    #footer{
+        margin-top: 50px;
+        height: 200px;
+    }
+    #footer #footer_width{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+    }
+    #footer #footer_width .b_logo{
+        width: 300px;
+        height: 70px;
+        float: none;
+        margin: 10px auto;
+    }
+    #footer #footer_width .address{
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 1em;
+        text-align: center;
+        margin-left: 0;
+    }
+    #footer #footer_width .address .link{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #footer #footer_width .address .link ul{
+        width: 200px;
+        margin: 0 auto;
+    }
+    #footer #footer_width .address .info{
+        width: 98%;
+        margin: 0 auto;
+    }
+    #footer #footer_width .address .copyright{
+        width: 98%;
+        margin: 0 auto;
+    }
+    #footer #footer_width .sns{
+        display: none;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:764px){
+    .logo img{
+        width: 250px;
+        margin-left: 20px;
+    }
+    .mo_nav_open{
+        width: 35px;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        display: block;
+    }
+    .mo_nav_open span{
+        display: block;
+        text-indent: -999999px;
+        width: 100%;
+        height: 4px;
+        background: #000;
+        position: absolute;
+    }
+    .mo_nav_open span:nth-child(1){
+        top: 0;
+    }
+    .mo_nav_open span:nth-child(2){
+        top: 15px;
+    }
+    .mo_nav_open span:nth-child(3){
+        top: 30px;
+    }
+    #mo_nav{
+        position: absolute;
+        width: 100%;
+        z-index: 5;
+        top: 0;
+    }
+    #mo_nav .mo_nav_wrap{
+        width: 100%;
+        height: auto;
+        background-color: #e5e5e5;
+    }
+    #mo_nav .mo_nav_wrap .form{
+        height: 160px;
+        background-color: #fff;
+        box-sizing: border-box;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_logo{
+        width: 250px;
+        height: 50px;
+        background: url(../Sleader/logo1.png) no-repeat center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 10px;
+        top: 25px;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close span{
+        display: block;
+        text-indent: -999999px;
+        width: 100%;
+        height: 4px;
+        background: #000;
+        position: absolute;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close span:nth-child(1){
+        transform: rotate(45deg);
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_close span:nth-child(2){
+        transform: rotate(-45deg);
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_btn{
+        width: 300px;
+        margin: 30px auto 0;
+        text-align: center;
+    }
+    #mo_nav .mo_nav_wrap .form .mo_nav_btn button{
+        margin: 0 10px;
+        padding: 10px;
+        background-color: #fff;
+        border: 2px solid #be4a4a;
+        border-radius: 10px;
+        font-size: 1em;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1{
+        width: 100%;
+        border-top: 2px solid #be4a4a;
+        border-bottom: 2px solid #be4a4a;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 li {
+        margin: 3px 0;
+        background-color: #b35a5a;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 > li > a {
+        color: #fff;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 .mo_nav_depth2 li{
+        width: 100%;
+        background-color: #fff;
+        margin: 0;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 .mo_nav_depth2 .mo_nav_depth3{
+       
+        display: none;
+    }
+    #mo_nav .mo_nav_wrap #mo_nav_depth1 .mo_nav_depth2 .mo_nav_depth3 li{
+        width: 100%;
+        background-color: #f0c0c0;
+    }
+    #mo_nav .mo_nav_wrap .mo_nav_info{
+        padding: 30px 0;
+        width: 350px;
+        text-align: center;
+        margin: 0 auto;
+        font-weight: 600;
+    }
+
+    #section .mo_section_nav > ul{
+        width: 100%;
+        border: 1px solid #ddd;
+        box-sizing: border-box;
+    }
+    #section .mo_section_nav > ul:after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+    #section .mo_section_nav > ul > li{
+        width: 50%;
+        display: block;
+        float: left;
+        box-sizing: border-box;
+    }
+
+    #section .mo_section_nav .mo_section_nav_depth2{
+        width: 100%;
+        height: 20px;
+        background-color: #fff;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .main_content .noted{
+        display: none
+    }
+    .main_content .noted_answer ul li > p{
+        display: none;
+    }
+    .main_content .noted_answer .mobile_answer{
+        display: block;
+        position: relative;
+        width: 100%;
+        left: -20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .main_content .noted_answer .mobile_answer a{
+        font-size: 0.9em;
+        background-color: #666666;
+        padding: 10px;
+        border-radius: 10px;
+        text-align: center;
+        width: auto;
+        margin: 0 auto;
+        color: #fff;
+        transition: all 0.4s;
+    }
+    .main_content .noted_answer .mobile_answer a:hover{
+        background-color: #be4a4a
+    }
+    .main_content .noted_answer .mobile_answer p{
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+
+    #footer{
+        margin-top: 50px;
+        height: 200px;
+    }
+    #footer #footer_width{
+        width: 100%;
+        height: auto;
+    }
+    #footer #footer_width .b_logo{
+        width: 240px;
+        height: 55px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    #footer #footer_width.address{
+            width: 100%;
+            margin-top: 20px;
+            font-size: 1em;
+            text-align: center;
+            margin-left: 0;
+    }
+    #footer #footer_width .address .link{
+        width: 70%;
+        margin: 0 auto;
+    }
+    #footer #footer_width .address .link ul{
+        width: 200px;
+        margin: 10px auto;
+    }
+    #footer #footer_width .address .info{
+        display: none;
+    }
+    #footer #footer_width .address .copyright{
+        margin: 10px auto;
+    }
+    #footer #footer_width .sns{
+        display: none;
+    }
+}
